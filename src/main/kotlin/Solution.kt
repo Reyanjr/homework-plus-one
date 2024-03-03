@@ -11,6 +11,6 @@ class Solution {
         }
         val intArray = IntArray(digits.size + 1)
         intArray[0] = 1
-        return digits
+        return intArray
     }
   }
