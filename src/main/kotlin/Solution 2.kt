@@ -1,4 +1,4 @@
-class solution3 {
+class `Solution 2` {
     fun searchInsert(nums: IntArray, target: Int): Int {
         var l = 0
         var r = nums.size - 1
