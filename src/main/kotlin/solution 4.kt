@@ -8,7 +8,8 @@ class `solution 4` {
                 if (value != '.') {
                     if (!seen.add("$value в строке $i") ||
                         !seen.add("$value в столбце $j") ||
-                        !seen.add("$value в подсети ${i/3}-${j/3}")) {
+                        !seen.add("$value в подсети ${i / 3}-${j / 3}")
+                    ) {
                         return false
                     }
                 }
