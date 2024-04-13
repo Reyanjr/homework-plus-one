@@ -20,7 +20,7 @@ class `Task 3` {
             super.displayInfo()
             println("Bike - Number of wheels: $numWheels")
         }
-        
+
     }
 
 }

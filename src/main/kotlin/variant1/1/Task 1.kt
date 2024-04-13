@@ -1,6 +1,6 @@
 package variant1.`1`
 
-class `1` {
+class `Task 1` {
     open class Vehicle(val speed: Int, val color: String)
 
     class Car(speed: Int, color: String, val numDoors: Int) : Vehicle(speed, color) {

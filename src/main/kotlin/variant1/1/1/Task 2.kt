@@ -1,6 +1,6 @@
 package variant1.`1`.`1`
 
-class `2` {
+class `Task 2` {
     open class Vehicle(val speed: Int, val color: String) {
         open fun displayInfo() {
             println("This vehicle is $color and its speed is $speed km/h.")
