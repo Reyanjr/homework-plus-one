@@ -1,3 +1,5 @@
+package plusone
+
 class Rectangle(var width: Int, var height: Int) {
     val isSquare: Boolean
         get() = (width == height)
@@ -13,5 +15,4 @@ fun main() {
         println("Прямоугольник $x имеет площадь ${r[x].area}")
         println("Это ${if (r[x].isSquare) "" else "не"} квадрат")
     }
-}
 }
