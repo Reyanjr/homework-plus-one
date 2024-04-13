@@ -13,9 +13,6 @@ class `Task 3` {
             println("Car - Number of doors: $numDoors")
         }
 
-        fun honk() {
-            println("Beep beep!")
-        }
     }
 
     class Bike(speed: Int, color: String, val numWheels: Int) : Vehicle(speed, color) {
@@ -23,10 +20,7 @@ class `Task 3` {
             super.displayInfo()
             println("Bike - Number of wheels: $numWheels")
         }
-
-        fun ringBell() {
-            println("Ring ring!")
-        }
+        
     }
 
 }
