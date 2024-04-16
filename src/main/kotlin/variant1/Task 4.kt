@@ -1,4 +1,4 @@
-package variant1.`1`.`1`
+package variant1
 
 class `Task 4` {
     abstract class Vehicle(val speed: Int, val color: String) {
