@@ -22,5 +22,4 @@ class `Task 1` {
         val bike = Bike(30, "blue", 2)
         bike.displayInfo()
     }
-
 }
