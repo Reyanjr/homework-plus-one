@@ -1,5 +1,7 @@
+package plusone
+
 class `Solution 4` {
-    / Define a global variable to simulate the first bad version
+    // Define a global variable to simulate the first bad version
     var firstBadVersion = 4
 
     // Function to simulate the provided API call to determine if a version is bad
