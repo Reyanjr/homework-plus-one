@@ -1,4 +1,4 @@
-class Задание {
+class Задание{
     abstract class Shape {
         abstract fun calculateArea(): Double
     }
