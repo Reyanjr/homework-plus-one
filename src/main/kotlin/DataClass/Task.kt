@@ -1,9 +1,9 @@
 package DataClass
 
 class Task {
-    data class student(
+    data class Student(
         val firstName: String,
-        val LastName: String,
+        val lastName: String,
         val group: String,
         val grades: List<Grade>
     )
@@ -13,23 +13,21 @@ class Task {
         val mark: Int
     )
 
-    fun printStudentList(students: List<student>) {
+    fun printStudentList(students: List<Student>) {
         for (student in students){
-            println("Name:${students.firstname} LastName: ${student.lastName}  Group: ${student.group}")
+            println("Name: ${student.firstName} LastName: ${student.lastName}  Group: ${student.group}")
             for(grade in student.grades) {
-                println("Subject: {(grade.subject} Mark: ${grade.mark}" )
+                println("Subject: ${grade.subject} Mark: ${grade.mark}" )
             }
         }
     }
 
     fun main() {
+        val student1 = Student("Alice", "Smith", "Group 1", listOf(Grade("Informatics", 5), Grade("Maths", 5)))
+        val student2 = Student("Bob", "Smith", "Group 1", listOf(Grade("Informatics", 5), Grade("Maths", 5)))
 
-            val student1= student("Alice", "smith", "Group 1", list0f(Grade("Informatics", 5), Grade("Maths", 5)))
-            val student2= student("Bob", "Smith", "Group 1", list0f(Grade("informatics", 5), Grade("Maths", 5)))
-
-        val students = list0f(student1, student2)
+        val students = listOf(student1, student2)
         printStudentList(students)
         println()
-
     }
 }

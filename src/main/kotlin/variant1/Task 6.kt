@@ -11,7 +11,8 @@ class `Task 6` {
         }
     }
 
-    class HybridCar(val make: String, val model: String, val year: Int, val mileage: Double, val fuelCapacity: Double) : FuelEfficient {
+    class HybridCar(val make: String, val model: String, val year: Int, val mileage: Double, val fuelCapacity: Double) :
+        FuelEfficient {
         override fun fuelEfficiency(): String {
             return "This $make $model is a hybrid car with a mileage of $mileage miles per gallon and a fuel capacity of $fuelCapacity gallons."
         }
