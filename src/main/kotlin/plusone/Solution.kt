@@ -1,11 +1,13 @@
+package plusone
+
 class Solution {
 
-    fun plusOne(digits: IntArray): IntArray{
+    fun plusOne(digits: IntArray): IntArray {
         for (i in digits.lastIndex downTo 0) {
-            if (digits[i] < 9){
+            if (digits[i] < 9) {
                 digits[i]++
                 return digits
-           } else {
+            } else {
                 digits[i] = 0
             }
         }
@@ -13,4 +15,4 @@ class Solution {
         intArray[0] = 1
         return intArray
     }
-  }
+}
